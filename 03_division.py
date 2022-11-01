@@ -12,6 +12,6 @@ a, b = 173, 37
 
 z = 0
 while z < 1:
-    z = 179 / 37
-    round(179 / 37)
-    print(z)
+    z = a / b
+    result = str(z).split(".")[0]
+    print(result)

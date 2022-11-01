@@ -10,11 +10,9 @@
 #   Студенту надо попросить ХХХ.ХХ рублей
 
 educational_grant, expenses = 10000, 12000
-
-
-
-x = 0
-while x < 1:
-    x = 12000 * (3 / 10 * 9)
-    print(x)
-
+count = 1
+while count < 10:
+    expenses *= 1.03
+    count += 1
+result = expenses - educational_grant
+print(f"Студенту нужно занять {result} денег.")
